@@ -1,0 +1,29 @@
+a:7:{s:3:"raw";s:791:"HTTP/1.1 404 Not Found
+cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+content-type: application/json; charset=utf-8
+date: Wed, 28 Aug 2013 20:18:30 GMT
+expires: Tue, 31 Mar 1981 05:00:00 GMT
+last-modified: Wed, 28 Aug 2013 20:18:30 GMT
+pragma: no-cache
+server: tfe
+set-cookie: lang=en
+set-cookie: guest_id=v1%3A137772111089199707; Domain=.twitter.com; Path=/; Expires=Fri, 28-Aug-2015 20:18:30 UTC
+status: 404 Not Found
+strict-transport-security: max-age=631138519
+x-access-level: read
+x-frame-options: SAMEORIGIN
+x-rate-limit-limit: 180
+x-rate-limit-remaining: 177
+x-rate-limit-reset: 1377721871
+x-transaction: 5e72645146351467
+Content-Encoding: gzip
+Connection: close
+
+{"errors":[{"message":"Sorry, that page does not exist","code":34}]}";s:7:"headers";a:20:{s:22:"HTTP/1.1 404 Not Found";s:0:"";s:13:"cache-control";s:62:"no-cache, no-store, must-revalidate, pre-check=0, post-check=0";s:12:"content-type";s:31:"application/json; charset=utf-8";s:4:"date";s:29:"Wed, 28 Aug 2013 20:18:30 GMT";s:7:"expires";s:29:"Tue, 31 Mar 1981 05:00:00 GMT";s:13:"last-modified";s:29:"Wed, 28 Aug 2013 20:18:30 GMT";s:6:"pragma";s:8:"no-cache";s:6:"server";s:3:"tfe";s:10:"set-cookie";a:2:{i:0;s:7:"lang=en";i:1;s:100:"guest_id=v1%3A137772111089199707; Domain=.twitter.com; Path=/; Expires=Fri, 28-Aug-2015 20:18:30 UTC";}s:6:"status";s:13:"404 Not Found";s:25:"strict-transport-security";s:17:"max-age=631138519";s:14:"x-access-level";s:4:"read";s:15:"x-frame-options";s:10:"SAMEORIGIN";s:18:"x-rate-limit-limit";s:3:"180";s:22:"x-rate-limit-remaining";s:3:"177";s:18:"x-rate-limit-reset";s:10:"1377721871";s:13:"x-transaction";s:16:"5e72645146351467";s:16:"Content-Encoding";s:4:"gzip";s:10:"Connection";s:5:"close";s:0:"";s:0:"";}s:4:"code";i:404;s:8:"response";s:68:"{"errors":[{"message":"Sorry, that page does not exist","code":34}]}";s:4:"info";a:22:{s:3:"url";s:80:"https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=987123abcxyz";s:12:"content_type";s:31:"application/json; charset=utf-8";s:9:"http_code";i:404;s:11:"header_size";i:723;s:12:"request_size";i:588;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.23394499999999999;s:15:"namelookup_time";d:0.016341000000000001;s:12:"connect_time";d:0.053343000000000002;s:16:"pretransfer_time";d:0.174925;s:11:"size_upload";d:0;s:13:"size_download";d:92;s:14:"speed_download";d:393;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.233708;s:13:"redirect_time";d:0;s:8:"certinfo";a:0:{}s:14:"request_header";s:588:"GET /1.1/statuses/user_timeline.json?screen_name=987123abcxyz HTTP/1.1
+User-Agent: TweetPull4RSS 0.3 - //scott.teamahearn.com/tweetpull4rss/ with tmhOAuth 0.8.2 - //github.com/themattharris/tmhOAuth
+Host: api.twitter.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+Authorization: OAuth oauth_consumer_key="[**removed**]", oauth_nonce="[**removed**]", oauth_signature="[**removed**]", oauth_signature_method="HMAC-SHA1", oauth_timestamp="1377721110", oauth_token="[**removed**]", oauth_version="1.0"
+
+";}s:5:"error";s:0:"";s:5:"errno";i:0;}Error: Sorry, that page does not exist

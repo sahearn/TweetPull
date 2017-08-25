@@ -1,0 +1,17 @@
+a:7:{s:3:"raw";s:392:"HTTP/1.1 401 Unauthorized
+content-type: application/json; charset=utf-8
+date: Wed, 28 Aug 2013 20:40:01 UTC
+server: tfe
+set-cookie: guest_id=v1%3A137772240134849959; Domain=.twitter.com; Path=/; Expires=Fri, 28-Aug-2015 20:40:01 UTC
+strict-transport-security: max-age=631138519
+Content-Encoding: gzip
+Connection: close
+
+{"errors":[{"message":"Could not authenticate you","code":32}]}";s:7:"headers";a:9:{s:25:"HTTP/1.1 401 Unauthorized";s:0:"";s:12:"content-type";s:31:"application/json; charset=utf-8";s:4:"date";s:29:"Wed, 28 Aug 2013 20:40:01 UTC";s:6:"server";s:3:"tfe";s:10:"set-cookie";s:100:"guest_id=v1%3A137772240134849959; Domain=.twitter.com; Path=/; Expires=Fri, 28-Aug-2015 20:40:01 UTC";s:25:"strict-transport-security";s:17:"max-age=631138519";s:16:"Content-Encoding";s:4:"gzip";s:10:"Connection";s:5:"close";s:0:"";s:0:"";}s:4:"code";i:401;s:8:"response";s:63:"{"errors":[{"message":"Could not authenticate you","code":32}]}";s:4:"info";a:22:{s:3:"url";s:77:"https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=neiltyson";s:12:"content_type";s:31:"application/json; charset=utf-8";s:9:"http_code";i:401;s:11:"header_size";i:329;s:12:"request_size";i:589;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.18901100000000001;s:15:"namelookup_time";d:0.010021;s:12:"connect_time";d:0.042027000000000002;s:16:"pretransfer_time";d:0.151618;s:11:"size_upload";d:0;s:13:"size_download";d:88;s:14:"speed_download";d:465;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.18862100000000001;s:13:"redirect_time";d:0;s:8:"certinfo";a:0:{}s:14:"request_header";s:589:"GET /1.1/statuses/user_timeline.json?screen_name=neiltyson HTTP/1.1
+User-Agent: TweetPull4RSS 0.3 - //scott.teamahearn.com/tweetpull4rss/ with tmhOAuth 0.8.2 - //github.com/themattharris/tmhOAuth
+Host: api.twitter.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+Authorization: OAuth oauth_consumer_key="[**removed**]", oauth_nonce="[**removed**]", oauth_signature="[**removed**]", oauth_signature_method="HMAC-SHA1", oauth_timestamp="1377722401", oauth_token="[**removed**]", oauth_version="1.0"
+
+";}s:5:"error";s:0:"";s:5:"errno";i:0;}Error: Could not authenticate you
