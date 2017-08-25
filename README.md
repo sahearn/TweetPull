@@ -19,7 +19,7 @@ This was great for people like me who are devoted to RSS, want to follow people 
 
 Since the v1.1 API allows authenticated requests to a large number of very useful methods, the first step was to sign in to the [Twitter Developer](https://dev.twitter.com/) site and create an application that would authenticate back to me. This is done via creation of "consumer keys" and "access tokens" that are unique to the developer and are placed in the request header.
 
-The next step was to find a way to create a valid request header with my keys/credentials along with my desired get method (in my case, `[statuses/user_timeline](https://dev.twitter.com/docs/api/1.1/get/statuses/user_timeline)`). GitHub user **themattharris** made all the authentication portion incredibly easy by developing an [OAuth library written in PHP](https://github.com/themattharris/tmhOAuth).
+The next step was to find a way to create a valid request header with my keys/credentials along with my desired get method (in my case, [statuses/user_timeline](https://dev.twitter.com/docs/api/1.1/get/statuses/user_timeline)). GitHub user **themattharris** made all the authentication portion incredibly easy by developing an [OAuth library written in PHP](https://github.com/themattharris/tmhOAuth).
 
 Once the request was formed, my code was then a matter of extracting the JSON response, parsing the user's tweets, and dropping them to a well-formed RSS/XML file. This might seem like an involved and somewhat unnecessary approach, but my primary reasoning was due to Twitter's [API rate limiting](https://dev.twitter.com/docs/rate-limiting/1.1). Read that, and the following "gotchas" should make more sense:
 
