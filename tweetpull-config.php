@@ -1,6 +1,6 @@
 <?php
 /**
- * TweetPull4RSS Config
+ * TweetPull for RSS Config
  * https://github.com/sahearn/TweetPull
  * http://scott.teamahearn.com/tweetpull4rss/
  *
