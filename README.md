@@ -10,7 +10,7 @@ For some time, Twitter RSS-enabled a user's stream, meaning one could essentiall
 This was great for people like me who are devoted to RSS, want to follow people on Twitter, but generally hate sifting through the streaming mess of the Twitter site. However, in the summer of 2013, Twitter officially deprecated v1 of its API, and released [v1.1](https://dev.twitter.com/rest/public); and with it, they removed the ability to make un-authenticated requests to the API. This effectively killed any ability to quickly and easily pull recent tweets via a simple URL.
 
 ## What You'll Need
-- PHP (ack! I know!)
+- PHP
 - a web host for the RSS feeds
 - a scheduler (like cron) to run the PHP script
 
