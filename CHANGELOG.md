@@ -1,5 +1,4 @@
 # Changelog
-
 0.4
 - added exclude_replies and include_rts (from statuses/user_timeline) to optionally remove replies or retweets
 
@@ -23,3 +22,15 @@
 
 0.1
 - First released version.
+
+# To-do List
+- ~~make embedded links linkable~~
+- ~~link @username mentions back to user~~
+- ~~link #hastags to tag search~~
+- ~~better code comments~~
+- ~~link embedded "media" entities~~
+- ~~separate config from program logic~~
+    - ~~add flags for debugging, enhanced features, errors, etc.~~
+- ~~option to turn off retweets; on twitter or via api?~~
+- maintain embedded media link/url in addition to IMG
+- why are RTs getting truncated? is that me or twitter?
