@@ -43,6 +43,7 @@ In general, a lot of improvements can be made here, but it's good enough for a v
     ```
     5 * * * * php /full/path/to/tweetpull.php -u [twitter screen name] [-r] [-t]
     ```
-    \-r is an optional parameter. If it is set, replies are removed from the returned timeline. See [statuses/user_timeline](https://dev.twitter.com/docs/api/1.1/get/statuses/user_timeline) for more info.\\
+    \-r is an optional parameter. If it is set, replies are removed from the returned timeline. See [statuses/user_timeline](https://dev.twitter.com/docs/api/1.1/get/statuses/user_timeline) for more info.
+    
     \-t is an optional parameter. If it is set, retweets are removed from the returned timeline. See [statuses/user_timeline](https://dev.twitter.com/docs/api/1.1/get/statuses/user_timeline) for more info.
 3. Output file(s) will be \[twitter screen name\].xml. Enter that file (with full URL) into your favorite RSS reader. (e.g. `http://www.mydomain.com/feeds/[twitter screen name].xml`)
