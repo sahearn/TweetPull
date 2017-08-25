@@ -1,6 +1,6 @@
 <?php
 /**
- * TweetPull4RSS
+ * TweetPull for RSS
  * Create an RSS feed of a selected Twitter user's recent tweets using the v1.1 API.
  * https://github.com/sahearn/TweetPull
  * http://scott.teamahearn.com/tweetpull4rss/
@@ -70,7 +70,7 @@ class tmhOAuthExample extends tmhOAuth {
                 'token'           => Config::ACCESS_TOKEN,
                 'secret'          => Config::ACCESS_SECRET,
                 //'bearer'          => 'YOUR_OAUTH2_TOKEN',
-                'user_agent'      => 'TweetPull4RSS ' . self::VERSION . ' - //github.com/sahearn/TweetPull with tmhOAuth ' . parent::VERSION . ' - //github.com/themattharris/tmhOAuth',
+                'user_agent'      => 'TweetPull for RSS ' . self::VERSION . ' - //github.com/sahearn/TweetPull with tmhOAuth ' . parent::VERSION . ' - //github.com/themattharris/tmhOAuth',
             ),
             $config
         );
