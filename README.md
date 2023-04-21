@@ -1,10 +1,13 @@
 # TweetPull
 Create an RSS feed of a selected Twitter user's recent tweets using the v1.1 API.
 
+:warning: **Update, 21 Apr 2023**  
+Coinciding with recent changes and API restrictions at Twitter, I finally received a suspension notice of this app.  Much of the code here is still valid, but Twitter is now requiring v2+ endpoints - so fork as necessary, depending on applicable changes to the `user_timeline` endpoint.
+
 ## Background
 For some time, Twitter RSS-enabled a user's stream, meaning one could essentially follow a user without interacting with the Twitter front-end website (or app). This allowed one to add one of two specifically-crafted URLs into their RSS reader of choice:
 
-`http://twitter.com/statuses/user_timeline/[numeric twitter id].rss` , or 
+`http://twitter.com/statuses/user_timeline/[numeric twitter id].rss` , or  
 `http://api.twitter.com/1/statuses/user_timeline.rss?screen_name=[twitter screen name]`
 
 This was great for people like me who are devoted to RSS, want to follow people on Twitter, but generally hate sifting through the streaming mess of the Twitter site. However, in the summer of 2013, Twitter officially deprecated v1 of its API, and released [v1.1](https://dev.twitter.com/rest/public); and with it, they removed the ability to make un-authenticated requests to the API. This effectively killed any ability to quickly and easily pull recent tweets via a simple URL.
